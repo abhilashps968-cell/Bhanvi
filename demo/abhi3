@@ -1,0 +1,5 @@
+select * from sspt_mods_directory where ftip='FTIP006687427'
+select e.empid , e.empname , d.deptname
+from employee e
+inner join department d
+on e.deptid= d.deptid
